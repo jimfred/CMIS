@@ -2,9 +2,7 @@
 *.pdf
 # local backups, retired sheets, per-run reports
 *.backup-*.xlsx
-*_archive.xlsx
 Memory_Map_Rebuild_Changes.xlsx
-Memory_Map_Reextraction_Review.xlsx
 # Excel lock files
 ~$*
 # intermediate extraction output (regenerated from the PDF)
