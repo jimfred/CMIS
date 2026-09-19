@@ -1,0 +1,17 @@
+# specification (OIF copyright) - download separately, see README
+*.pdf
+# local backups, retired sheets, per-run reports
+*.backup-*.xlsx
+*_archive.xlsx
+Memory_Map_Rebuild_Changes.xlsx
+Memory_Map_Reextraction_Review.xlsx
+# Excel lock files
+~$*
+# intermediate extraction output (regenerated from the PDF)
+tools/data/pdf_memory_map_raw.json
+tools/data/memory_map.json
+# superseded prototypes
+tools/proto_*.py
+__pycache__/
+*.pyc
+tools/data/cdb_commands.json
